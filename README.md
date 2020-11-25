@@ -33,3 +33,17 @@ useful cmds / scripts
 #### find line with word
 
 `find / -name "the-word-to-be-found" name-of-file.txt`
+
+### sort
+#### to find unique line
+
+`sort data.txt | uniq -u`
+
+### grep
+
+#### Regex search file
+
+`cat file.ending | format | grep '[^character]*$'`
+
+where ^ is the start of the line, * however many times, and $ means end of line.
+##
