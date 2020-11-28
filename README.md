@@ -67,3 +67,26 @@ For translation or deleting of characters.
 #### rot13
 `cat datat.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
 
+### Uncompressing Data Algorithm 
+
+```cli 
+
+# revert the data from hexdump
+> cat name-of-data.extension_type | xxd -r name-of-data.extension_type > name-of-reverted-hexdump.file_ext
+
+# find the compression algorithm used 
+> file name-of-reverted-hexdump.file_ext
+
+# w/e the type of algorithm used then rename file to match the same ending
+> mv name-of-reverted-hexdump.file_ext data2.gz 
+
+# uncompress it
+> gzip -d data2.gz
+
+# file to check
+
+> file data2
+
+# iterate through until all compression is gone and left with a plain ASCII file.
+
+```
