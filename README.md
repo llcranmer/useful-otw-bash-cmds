@@ -90,3 +90,9 @@ For translation or deleting of characters.
 # iterate through until all compression is gone and left with a plain ASCII file.
 
 ```
+
+
+### SSH
+
+if you have the private key then you can use it to authenticate on a machine that has the public key.
+
