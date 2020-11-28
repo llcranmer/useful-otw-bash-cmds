@@ -96,3 +96,6 @@ For translation or deleting of characters.
 
 if you have the private key then you can use it to authenticate on a machine that has the public key.
 
+### Initiate a secure connection to a server 
+
+`> openssl s_client -connect nameOfServer:portNumber`
