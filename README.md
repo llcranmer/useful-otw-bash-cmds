@@ -46,4 +46,11 @@ useful cmds / scripts
 `cat file.ending | format | grep '[^character]*$'`
 
 where ^ is the start of the line, * however many times, and $ means end of line.
-##
+
+### base64
+
+If the data is suspected to be encoded in base64 and there is the tool **base64** installed then to decode it do:
+`bas64 -d -i name-of-file.extension_type`
+
+where `-d` is to decode and `-i` is to ignore garbage such as newlines.
+
