@@ -49,6 +49,11 @@ where ^ is the start of the line, * however many times, and $ means end of line.
 
 ### base64
 
+#### Test whether data is base64 or not 
+
+`cat name-of-file.extension-tipe | grep -E '[A-Za-z0-9+/]{4}*([A-Za-z0-9+/]{4}|[A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{2}==)'`
+
+#### If true and have base64 tool
 If the data is suspected to be encoded in base64 and there is the tool **base64** installed then to decode it do:
 `bas64 -d -i name-of-file.extension_type`
 
