@@ -111,3 +111,7 @@ If user cannot create file in location then create /tmp/location then change int
 Find the lines changed between two files 
 
 `> diff file_1 file_2`
+
+### Issue Command to a Server while connecting 
+
+`ssh server@server.org -p num "cat ~/file.name"`
