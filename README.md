@@ -119,3 +119,9 @@ Find the lines changed between two files
 ### setuid
 
 If cannot run command then try changing the user 'id' so that user is allowed...
+
+### suconnect
+
+How to set up a local server on a machine. Can do UDP or TCP connections as a server.
+
+`> nc -l localhost -p portNumber`
