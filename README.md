@@ -99,3 +99,8 @@ if you have the private key then you can use it to authenticate on a machine tha
 ### Initiate a secure connection to a server 
 
 `> openssl s_client -connect nameOfServer:portNumber`
+
+
+### Can't create file?
+
+If user cannot create file in location then create /tmp/location then change into the directory and create a file as normal. 
