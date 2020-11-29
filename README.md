@@ -115,3 +115,7 @@ Find the lines changed between two files
 ### Issue Command to a Server while connecting 
 
 `ssh server@server.org -p num "cat ~/file.name"`
+
+### setuid
+
+If cannot run command then try changing the user 'id' so that user is allowed...
