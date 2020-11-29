@@ -126,5 +126,7 @@ How to set up a local server on a machine. Can do UDP or TCP connections as a se
 
 `> nc -l localhost -p portNumber`
 
+### md5sum
 
+Useful for generating hashes from the terminal
 
