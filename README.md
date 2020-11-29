@@ -104,3 +104,10 @@ if you have the private key then you can use it to authenticate on a machine tha
 ### Can't create file?
 
 If user cannot create file in location then create /tmp/location then change into the directory and create a file as normal. 
+
+
+### Diff 
+
+Find the lines changed between two files 
+
+`> diff file_1 file_2`
